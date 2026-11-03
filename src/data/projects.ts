@@ -103,7 +103,7 @@ export const PROJECTS: Project[] = [
       'Tool execution happens only against a mock sandbox',
     ],
     stack: ['Python', 'FastAPI', 'SQLAlchemy', 'React', 'TypeScript'],
-    limits: 'No public demo yet; the shared API token is not a user-account system.',
+    limits: 'A public sandbox demo mode is ready to deploy; outside it, access uses one shared API token rather than user accounts.',
     image: '/shots/agentvault.webp',
   },
   {
@@ -137,7 +137,7 @@ export const PROJECTS: Project[] = [
     highlights: [
       'Live deployment with a guided demo and an auto-playing product tour',
       'Conflict detection against the decision history',
-      'Human approval before any action runs',
+      'Tests for the structured-output repair loop and the API, run in CI',
     ],
     stack: ['Next.js', 'TypeScript', 'Groq', 'Zod'],
     live: { label: 'Open the live app', url: 'https://followthrough-agent.vercel.app' },
