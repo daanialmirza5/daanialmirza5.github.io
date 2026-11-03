@@ -1,8 +1,8 @@
 export const PROFILE = {
-  name: 'Daanial Mirza',
+  name: 'Daanial Baig',
   role: 'Software Engineer',
   intro:
-    'AI & ML engineering student at SIES Graduate School of Technology, Mumbai, and Software Engineer Intern at Orion Innovation.',
+    'AI & ML engineering student at SIES Graduate School of Technology, Mumbai (Class of 2027), previously a Software Engineering Intern at Orion Innovation.',
   pitch:
     'I build full-stack systems in Python and TypeScript that show how they reach their results: incident reconstruction, data observability, agent safety, retrieval and decision support.',
   education: 'Studying AI & ML engineering at SIES Graduate School of Technology, Mumbai.',
@@ -13,10 +13,10 @@ export const PROFILE = {
 
 export const EXPERIENCE = [
   {
-    role: 'Software Engineer Intern',
-    org: 'Orion Innovation (India), Mumbai',
-    period: 'Aug 2026 – present',
-    detail: '',
+    role: 'Software Engineering Intern',
+    org: 'Orion Innovation India, Mumbai (Powai)',
+    period: 'Aug – Nov 2026',
+    detail: 'Built Power BI dashboards and data-analysis reports for data-driven decisions, and contributed to open-source engineering projects using enterprise delivery practices: code review, version control and structured releases.',
   },
   {
     role: 'Web & Android Development Intern',
@@ -30,8 +30,8 @@ export const EXPERIENCE = [
 export const HONORS = [
   { result: '1st Prize', event: 'RocketRide Buildathon, Mumbai', date: 'Aug 2026', project: 'BidFactory', team: true },
   { result: 'Top 10', event: 'HackCelestial', date: 'Sep 2026', project: 'SafarSathi, built on TripRescue', team: true },
-  { result: 'National Finalist', event: 'Smart India Hackathon 2025', date: '', project: 'AI-based autonomous drone solution', team: true },
-  { result: 'Elimination Round Qualifier', event: 'ISRO Indian Space Robotics Challenge 2026', date: '', project: '', team: true },
+  { result: 'National Finalist', event: 'Smart India Hackathon 2025, Hardware Edition Grand Finale', date: 'Dec 2025', project: 'AI-powered autonomous drone (ROS 2, Visual SLAM, NVIDIA Jetson Orin Nano)', team: true },
+  { result: 'Elimination Round Qualifier', event: 'ISRO IRoC-U 2026', date: '2026', project: 'Team DROVICE: GPS-denied indoor drone navigation', team: true },
 ];
 
 export const PRINCIPLES = [
