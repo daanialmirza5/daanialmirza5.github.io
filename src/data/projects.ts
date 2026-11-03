@@ -67,7 +67,7 @@ export const PROJECTS: Project[] = [
       'CI covers lint, types, unit tests, Playwright end-to-end and the Docker image',
     ],
     stack: ['Python', 'FastAPI', 'SQLAlchemy', 'React', 'TypeScript'],
-    limits: 'No public demo yet; runs locally or with Docker in one command.',
+    live: { label: 'Open the live demo', url: 'https://ghosttrace-f2xy.onrender.com', note: 'Open Import events and load a bundled incident. Free hosting: the first load can take about a minute.' },
     image: '/shots/ghosttrace.webp',
   },
   {
@@ -85,7 +85,7 @@ export const PROJECTS: Project[] = [
       'CI runs on Python 3.12 and 3.14, plus end-to-end and container checks',
     ],
     stack: ['Python', 'FastAPI', 'pandas', 'SciPy', 'React'],
-    limits: 'No public demo yet; runs locally or with Docker.',
+    live: { label: 'Open the live demo', url: 'https://datasentinel-demo.onrender.com', note: 'Free hosting: the first load can take about a minute while the server wakes.' },
     image: '/shots/datasentinel.webp',
   },
   {
@@ -103,7 +103,8 @@ export const PROJECTS: Project[] = [
       'Tool execution happens only against a mock sandbox',
     ],
     stack: ['Python', 'FastAPI', 'SQLAlchemy', 'React', 'TypeScript'],
-    limits: 'A public sandbox demo mode is ready to deploy; outside it, access uses one shared API token rather than user accounts.',
+    live: { label: 'Open the live demo', url: 'https://agentvault-191i.onrender.com', note: 'Public sandbox: scripted agents and mock tools. Free hosting: the first load can take about a minute.' },
+    limits: 'Outside the public sandbox, access uses one shared API token rather than user accounts.',
     image: '/shots/agentvault.webp',
   },
   {
@@ -234,6 +235,7 @@ export const PROJECTS: Project[] = [
       'A deterministic reasoning pipeline over a typed ecological knowledge graph and pgvector retrieval of scientific sources, producing constraint-aware biodiversity interventions with transparent reasoning chains.',
     highlights: ['Red-team tests against hallucinated numbers', 'Claim verification against retrieved excerpts'],
     stack: ['FastAPI', 'NetworkX', 'pgvector', 'React'],
+    live: { label: 'Open the live demo', url: 'https://ecosynapse-ai-1.onrender.com', note: 'Free hosting: the first load can take about a minute while the server wakes.' },
     context: 'Darukaa.Earth AI Biodiversity Intelligence Chatbot Challenge.',
     image: '/shots/ecosynapse.webp',
   },
