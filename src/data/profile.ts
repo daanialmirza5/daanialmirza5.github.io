@@ -29,7 +29,7 @@ export const EXPERIENCE = [
 /** Honors exactly as listed on the GitHub profile. */
 export const HONORS = [
   { result: '1st Prize', event: 'RocketRide Buildathon, Mumbai', date: 'Aug 2026', project: 'BidFactory', team: true },
-  { result: 'Top 10', event: 'HackCelestial', date: 'Sep 2026', project: 'SafarSathi, built on TripRescue', team: true },
+  { result: 'Top 10', event: 'HackCelestial', date: 'Sep 2026', project: 'SafarSathi', team: true },
   { result: 'National Finalist', event: 'Smart India Hackathon 2025, Hardware Edition Grand Finale', date: 'Dec 2025', project: 'AI-powered autonomous drone (ROS 2, Visual SLAM, NVIDIA Jetson Orin Nano)', team: true },
   { result: 'Elimination Round Qualifier', event: 'ISRO IRoC-U 2026', date: '2026', project: 'Team DROVICE: GPS-denied indoor drone navigation', team: true },
 ];

@@ -5,7 +5,7 @@ import { CATEGORIES, PROJECTS } from './projects';
 
 // Public repositories on github.com/daanialmirza5 that the site may link to.
 const PUBLIC_REPOS = new Set([
-  'triprescue', 'ghosttrace', 'datasentinel', 'agentvault', 'SafeJourney', 'followthrough-agent', 'riptide',
+  'SafarSathi', 'ghosttrace', 'datasentinel', 'agentvault', 'SafeJourney', 'followthrough-agent', 'riptide',
   'Rag-forge-ai', 'deep-research-ai', 'sentrix', 'RakshaCall', 'Coolgrid-Webverse', 'EcoSynapse-AI', 'AgriSentinel',
   'InspectEdge', 'lifeline-os', 'SkillGraph', 'gridmind', 'trustledger', 'foodloop', 'EcoLens', 'bid-factory-app',
   'cricket-auction', 'AuraAI', 'IQOO-MAA-AI', 'civicflow', 'FinShield', 'Turfmate',

@@ -34,9 +34,9 @@ export const repoUrl = (p: Project) => gh(p.repo);
 
 export const PROJECTS: Project[] = [
   {
-    id: 'triprescue',
-    name: 'TripRescue',
-    repo: 'triprescue',
+    id: 'safarsathi',
+    name: 'SafarSathi',
+    repo: 'SafarSathi',
     category: 'fullstack',
     featured: true,
     tagline: 'Recovers a multi-leg trip when one booking breaks.',
@@ -44,13 +44,13 @@ export const PROJECTS: Project[] = [
       'Models an itinerary as a dependency graph. When a flight, train or hotel is disrupted, it propagates the impact to every downstream booking, generates recovery options, ranks them by cost, time and risk, and re-validates the whole plan after one is applied.',
     highlights: [
       'Dependency-graph impact propagation and ranked recovery plans',
-      'Deployed end to end: GitHub Pages frontend, FastAPI on Render, PostgreSQL',
-      'Backend and frontend test suites run in CI on every push',
+      'Deployed end to end: GitHub Pages frontend and FastAPI on Render',
+      '504 backend and 244 frontend tests run in CI on every push',
     ],
     stack: ['React', 'TypeScript', 'FastAPI', 'SQLAlchemy', 'PostgreSQL'],
-    live: { label: 'Open the live app', url: 'https://daanialmirza5.github.io/triprescue/', note: 'The API may take a minute to wake outside 09:30–23:30 IST.' },
-    context: 'Basis of SafarSathi, a Top 10 entry at HackCelestial 2026 (team entry).',
-    image: '/shots/triprescue.webp',
+    live: { label: 'Open the live app', url: 'https://daanialmirza5.github.io/SafarSathi/', note: 'The API may take a minute to wake outside 09:30–23:30 IST.' },
+    context: 'Top 10 at HackCelestial 2026 (team entry), grown from my earlier project TripRescue.',
+    image: '/shots/safarsathi.webp',
   },
   {
     id: 'ghosttrace',
@@ -339,10 +339,12 @@ export const PROJECTS: Project[] = [
     repo: 'bid-factory-app',
     category: 'hackathon',
     tagline: 'RFP responses that never invent a capability.',
-    summary: 'Extracts requirements from an RFP through a RocketRide pipeline calling Groq, searches the company’s own documents for evidence, drafts grounded answers and flags anything without evidence for a person to decide.',
-    highlights: ['Schema-validated requirement extraction'],
-    stack: ['FastAPI', 'RocketRide', 'Groq', 'React'],
-    context: 'RocketRide Buildathon, Mumbai.',
+    summary: 'Extracts requirements from an RFP with an LLM, searches the company’s own documents for evidence, drafts answers only from that evidence and flags anything unproven for a person to decide.',
+    highlights: ['Measured on 50 labelled requirements: 0 of 20 unsupported ones marked Covered, 25 of 25 Covered labels correct', 'Schema-validated extraction and a check that rejects drafts with unsupported figures'],
+    stack: ['FastAPI', 'Groq', 'ONNX', 'React'],
+    live: { label: 'Open the live app', url: 'https://bid-factory.onrender.com', note: 'Free hosting: the first request can take about a minute.' },
+    context: '1st Prize, RocketRide Buildathon, Mumbai (team entry).',
+    image: '/shots/bidfactory.webp',
   },
   {
     id: 'cricketauction',
